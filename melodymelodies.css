@@ -1,0 +1,3966 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+	background-color: #EFE9E1;
+}
+
+#text {
+	font-size: 16px;
+	font-weight: 200;
+	text-transform: none;
+	margin: 16px;
+	padding: 8px;
+	max-width: 100%;
+	background-color:#F8DCDD;
+}
+body {
+    width: 100%;
+}
+#about body {
+    width: 100%;
+}
+#about {
+		
+}
+img {
+    max-width: 100%;
+}
+a img {
+    border: none;
+}
+header {
+	background-color: #F8DCDD;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	padding: 0;
+}
+header h1 {
+	color: #FF9395;
+}
+#melpic {
+	
+}
+#aboutme {
+	
+}
+#musicimg {
+	
+}
+#aboutme a {
+	display: block;
+	padding: 2px 0;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#aboutme a:visited {
+	color: #EA1BA6;
+}
+#aboutme a:hover {
+	color: #8734F2;
+}
+#musicimg a {
+	display: block;
+	padding: 2px 0;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+    color: #DE8CEF;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#musicimg a:visited {
+	color: #EA1BA6;
+}
+#musicimg a:hover {
+	color: #8734F2;
+}
+#pianoimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#pianoimg a:visited {
+	color: #EA1BA6;
+}
+#pianoimg a:hover {
+	color: #8734F2;
+}
+#electronicimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#electronicimg a:visited {
+	color: #EA1BA6;
+}
+#electronicimg a:hover {
+	color: #8734F2;
+}
+#orchimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#orchimg a:visited {
+	color: #EA1BA6;
+}
+#orchimg a:hover {
+	color: #8734F2;
+}
+#marchingensemble a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#marchingensemble a:visited {
+	color: #EA1BA6;
+}
+#marchingensemble a:hover {
+	color: #8734F2;
+}
+#songimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#songimg a:visited {
+	color: #EA1BA6;
+}
+#songimg a:hover {
+	color: #8734F2;
+}
+#beatimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#beatimg a:visited {
+	color: #EA1BA6;
+}
+#beatimg a:hover {
+	color: #8734F2;
+}
+#soundtrackimg a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 24px;
+}
+#soundtrackimg a:visited {
+	color: #EA1BA6;
+}
+#soundtrackimg a:hover {
+	color: #8734F2;
+}
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+    background-color: #F8DCDD;
+	width: 100%;
+	align-items: center;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
+}
+nav ul {
+	margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style-type: none;
+	margin: 0 0 20px 20px;
+    padding: 0 0 8px 0;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 12px;
+    font-weight: 900;
+    color: #DE8CEF;
+	opacity: 0;
+	transition: opacity 150ms ease-in-out;
+}
+ul li a:visited {
+    color: #EA1BA6;
+}
+
+ul li a:hover {
+    color: #8734F2;
+}
+.nav_toggle {
+	display: none;
+}
+.nav_toggle_label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 0 0 20px;
+	border: 0 solid pink;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.nav_toggle_label span,
+.nav_toggle_label span::before,
+.nav_toggle_label span::after {
+	display: block;
+	background-color: #FF9395;
+	height: 2px;
+	width: 40px;
+	border-radius: 2px;
+	position: relative;
+}
+
+.nav_toggle_label span::before,
+.nav_toggle_label span::after {
+	content: '';
+	position: absolute;
+}
+.nav_toggle_label span::before {
+	bottom: 7px;
+}
+.nav_toggle_label span::after {
+	top: 7px;
+}
+.nav_toggle:checked ~ nav {
+	transform: scale(1, 1);
+}
+.nav_toggle:checked ~ nav a {
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 250ms;
+}
+#s1,
+#s2,
+#s3,
+#s4,
+#s5,
+#s6 {
+	display: block;
+	list-style-type: none;
+	margin: 0 0 20px 20px;
+    padding: 0 0 8px 0;
+}
+
+#s1 h4,
+#s2 h4,
+#s3 h4,
+#s4 h4,
+#s5 h4,
+#s6 h4 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+}
+#s1 a,
+#s2 a,
+#s3 a,
+#s4 a,
+#s5 a,
+#s6 a {
+	display: block;
+	padding: 2px;
+	margin: 15px 0;
+	background-color: #F8DCDD;
+	color: #DE8CEF;
+    text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+#s1 p,
+#s2 p,
+#s3 p,
+#s4 p,
+#s5 p,
+#s6 p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+	text-align: center;
+	max-width: 300px;
+}
+#s1 p,
+#s2 p,
+#s3 p,
+#s4 p,
+#s5 p,
+#s6 p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+	text-align: center;
+	max-width: 300px;
+}
+#s1 a:visited,
+#s2 a:visited,
+#s3 a:visited,
+#s4 a:visited,
+#s5 a:visited,
+#s6 a:visited {
+    color: #EA1BA6;
+}
+#s1 a:hover,
+#s2 a:hover,
+#s3 a:hover,
+#s4 a:hover,
+#s5 a:hover,
+#s6 a:hover {
+    color: #8734F2;
+}
+footer {
+    
+}
+
+footer p {
+    text-transform: capitalize;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    
+}
+/*------------------------------------------------------------------------------------------------*/
+/*for screens min 300px and max 599px in portrait*/@media screen and (min-width: 300px) and (max-width: 599px) and (orientation:portrait) {
+	#wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"mel"
+			"t"
+			"ab"
+			"mus"
+			"f";
+	}
+	
+	header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#melpic {
+		grid-area: mel;
+		align-self: center;
+		justify-self: center;
+	}
+	#text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#musicimg {
+		grid-area: mus;
+		align-self: center;
+		justify-self: center;
+	}
+	nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#about #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"ab"
+			"t"
+			"f";
+	}
+	#about header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#about nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#about nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#about footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#music #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(9, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"i"
+			"t"
+			"p"
+			"e"
+			"o"
+			"m"
+			"f";
+	}
+	#music header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#music nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#music nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#music #musicpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #pianoimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #electronicimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #marchingensemble {
+		grid-area: m;
+		align-self: center;
+		justify-self: center;
+	}
+	#music footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#piano #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(9, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"p"
+			"t"
+			"s1"
+			"s2"
+			"s3"
+			"s4"
+			"f";
+	}
+	#piano header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#piano nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#piano #pianopageimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#electronic #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"t"
+			"s"
+			"b"
+			"f";
+	}
+	#electronic header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#electronic nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#electronic #songimg {
+		grid-area: s;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #beatimg {
+		grid-area: b;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#esongs #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(9, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"e"
+			"t"
+			"s1"
+			"s2"
+			"s3"
+			"s4"
+			"f";
+	}
+	#esongs header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#esongs nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#esongs #esongimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#ebeats #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(11, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"e"
+			"t"
+			"s1"
+			"s2"
+			"s3"
+			"s4"
+			"s5"
+			"s6"
+			"f";
+	}
+	#ebeats header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#ebeats nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#ebeats #ebeatimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s5 {
+		grid-area: s5;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s6 {
+		grid-area: s6;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#orchestral #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(10, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"o"
+			"t"
+			"s"
+			"s1"
+			"s2"
+			"s3"
+			"s4"
+			"f";
+	}
+	#orchestral header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#orchestral nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#orchestral #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #soundtrackimg {
+		grid-area: s;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#soundtracks #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"i"
+			"t"
+			"s1"
+			"s2"
+			"f";
+	}
+	#soundtracks header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#soundtracks nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#soundtracks #soundtrackpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#marching #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(1, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n"
+			"h"
+			"i"
+			"t"
+			"s1"
+			"s2"
+			"f";
+	}
+	#marching header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#marching nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#marching #marchingpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+}
+
+/*for screens min 540px and max 699px in portrait*/@media screen and (min-width: 540px) and (max-width: 699px) and (orientation:portrait) {
+	#wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"mel t"
+			"ab mus"
+			"f f";
+	}
+	header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#melpic {
+		grid-area: mel;
+		align-self: center;
+		justify-self: center;
+	}
+	#text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#musicimg {
+		grid-area: mus;
+		align-self: center;
+		justify-self: center;
+	}
+	nav {
+		grid-area: n;
+		align-content: center;
+		align-items: center;
+	}
+	footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#about #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"ab ab"
+			"t t"
+			"f f";
+	}
+	#about header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#about nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#about nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#about footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#music #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"p e"
+			"o m"
+			"f f";
+	}
+	#music header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#music nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#music nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#music #musicpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #pianoimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #electronicimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #marchingensemble {
+		grid-area: m;
+		align-self: center;
+		justify-self: center;
+	}
+	#music footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#piano #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"p p"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"f f";
+	}
+	#piano header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#piano nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#piano #pianopageimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#electronic #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"t t"
+			"s b"
+			"f f";
+	}
+	#electronic header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#electronic nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#electronic #songimg {
+		grid-area: s;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #beatimg {
+		grid-area: b;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#esongs #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"e e"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"f f";
+	}
+	#esongs header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#esongs nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#esongs #esongimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#ebeats #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"e e"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"s5 s6"
+			"f f";
+	}
+	#ebeats header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#ebeats nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#ebeats #ebeatimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s5 {
+		grid-area: s5;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s6 {
+		grid-area: s6;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#orchestral #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"o o"
+			"t t"
+			"s s1"
+			"s s2"
+			"s3 s4"
+			"f f";
+	}
+	#orchestral header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#orchestral nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#orchestral #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #soundtrackimg {
+		grid-area: s;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#soundtracks #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"s1 s2"
+			"f f";
+	}
+	#soundtracks header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#soundtracks nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#soundtracks #soundtrackpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#marching #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"s1 s2"
+			"f f";
+	}
+	#marching header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#marching nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#marching #marchingpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+}
+
+/*for screens min 550px and max 950px in landscape*/@media screen and (min-width: 550px) and (max-width: 950px) and (orientation:landscape) {
+	#wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"mel t"
+			"ab mus"
+			"f f";
+	}
+	header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#melpic {
+		grid-area: mel;
+		align-self: center;
+		justify-self: center;
+	}
+	#text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#musicimg {
+		grid-area: mus;
+		align-self: center;
+		justify-self: center;
+	}
+	nav {
+		grid-area: n;
+		align-content: center;
+		align-items: center;
+	}
+	footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#about #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"ab ab"
+			"t t"
+			"f f";
+	}
+	#about header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#about nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#about nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#about footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#music #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"p e"
+			"o m"
+			"f f";
+	}
+	#music header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#music nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#music nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#music #musicpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #pianoimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #electronicimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #marchingensemble {
+		grid-area: m;
+		align-self: center;
+		justify-self: center;
+	}
+	#music footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#piano #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"p p"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"f f";
+	}
+	#piano header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#piano nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#piano #pianopageimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#electronic #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"t t"
+			"s b"
+			"f f";
+	}
+	#electronic header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#electronic nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#electronic #songimg {
+		grid-area: s;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #beatimg {
+		grid-area: b;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#esongs #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"e e"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"f f";
+	}
+	#esongs header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#esongs nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#esongs #esongimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#ebeats #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"e e"
+			"t t"
+			"s1 s2"
+			"s3 s4"
+			"s5 s6"
+			"f f";
+	}
+	#ebeats header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#ebeats nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#ebeats #ebeatimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s5 {
+		grid-area: s5;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s6 {
+		grid-area: s6;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#orchestral #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"o o"
+			"t t"
+			"s s1"
+			"s s2"
+			"s3 s4"
+			"f f";
+	}
+	#orchestral header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#orchestral nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#orchestral #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #soundtrackimg {
+		grid-area: s;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#soundtracks #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"s1 s2"
+			"f f";
+	}
+	#soundtracks header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#soundtracks nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#soundtracks #soundtrackpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#marching #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(2, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"n h"
+			"i i"
+			"t t"
+			"s1 s2"
+			"f f";
+	}
+	#marching header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching nav {
+		grid-area: n;
+		text-align: left;
+		align-self: center;
+		justify-self: center;
+		align-content: center;
+		align-items: center;
+	}
+	#marching nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#marching #marchingpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+}
+
+/*for screens min 950px and max 1280px in landscape*/@media screen and (min-width: 950px) and (max-width: 1280px) and (orientation:landscape) {
+	#wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". mel mel ."
+			". t t ."
+			". ab mus ."
+			"f f f f";
+	}
+	.nav_toggle_label {
+		display: none;
+	}
+	.nav_toggle:checked ~ nav a,
+	.nav_toggle:not(:checked) ~ nav a {
+		opacity: 1;
+	}
+	header {
+		grid-area: h;
+		display: grid;
+		grid-template-columns: 1fr auto minmax(525px, 3fr) 1fr;
+	}
+	header h1 {
+		grid-column: 2 / 3;
+	}
+	nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	nav ul li {
+		margin: 0 0 0 20px;
+	}
+	nav a {
+		opacity: 1;
+		position: relative;
+	}
+	nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#melpic {
+		grid-area: mel;
+		align-self: center;
+		justify-self: center;
+	}
+	#text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#musicimg {
+		grid-area: mus;
+		align-self: center;
+		justify-self: center;
+	}
+	footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#about #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". ab ab ."
+			". t t ."
+			"f f f f";
+	}
+	#about header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#about nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#about nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#about nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#about nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#about nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#about nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	
+	#music #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			". p e ."
+			". o m ."
+			"f f f f";
+	}
+	#music header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#music nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#music nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#music nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#music nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#music nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#music nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#music #musicpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #pianoimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #electronicimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #marchingensemble {
+		grid-area: m;
+		align-self: center;
+		justify-self: center;
+	}
+	#music footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#piano #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". p p ."
+			". t t ."
+			". s1 s2 ."
+			". s3 s4 ."
+			"f f f f";
+	}
+	#piano header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#piano nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#piano nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#piano nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#piano nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#piano nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#piano #pianopageimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#electronic #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". t t ."
+			". s b ."
+			"f f f f";
+	}
+	#electronic header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#electronic nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#electronic nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#electronic nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#electronic nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#electronic nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#electronic #songimg {
+		grid-area: s;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #beatimg {
+		grid-area: b;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#esongs #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". e e ."
+			". t t ."
+			". s1 s2 ."
+			". s3 s4 ."
+			"f f f f";
+	}
+	#esongs header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#esongs nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#esongs nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#esongs nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#esongs nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#esongs nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#esongs #esongimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#ebeats #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". e e ."
+			". t t ."
+			". s1 s2 ."
+			". s3 s4 ."
+			". s5 s6 ."
+			"f f f f";
+	}
+	#ebeats header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#ebeats nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#ebeats nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#ebeats nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#ebeats nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#ebeats nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#ebeats #ebeatimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s5 {
+		grid-area: s5;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s6 {
+		grid-area: s6;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#orchestral #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". o o ."
+			". t t ."
+			". s s1 ."
+			". s s2 ."
+			". s3 s4 ."
+			"f f f f";
+	}
+	#orchestral header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#orchestral nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#orchestral nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#orchestral nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#orchestral nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#orchestral nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#orchestral #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #soundtrackimg {
+		grid-area: s;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#soundtracks #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			". s1 s2 ."
+			"f f f f";
+	}
+	#soundtracks header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#soundtracks nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#soundtracks nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#soundtracks nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#soundtracks nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#soundtracks nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#soundtracks #soundtrackpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#marching #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			". s1 s2 ."
+			"f f f f";
+	}
+	#marching header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#marching nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#marching nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#marching nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#marching nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#marching nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#marching #marchingpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+}
+
+/*for screens min 1250px and max 3000px in landscape*/@media screen and (min-width: 1250px) and (max-width: 3000px) and (orientation:landscape) {
+	#wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". mel mel ."
+			". t t ."
+			". ab mus ."
+			"f f f f";
+	}
+	.nav_toggle_label {
+		display: none;
+	}
+	.nav_toggle:checked ~ nav a,
+	.nav_toggle:not(:checked) ~ nav a {
+		opacity: 1;
+	}
+	header {
+		grid-area: h;
+		display: grid;
+		grid-template-columns: 1fr auto minmax(525px, 3fr) 1fr;
+	}
+	header h1 {
+		grid-column: 2 / 3;
+	}
+	nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	nav ul li {
+		margin: 0 0 0 20px;
+	}
+	nav a {
+		opacity: 1;
+		position: relative;
+	}
+	nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#melpic {
+		grid-area: mel;
+		align-self: center;
+		justify-self: center;
+	}
+	#text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#musicimg {
+		grid-area: mus;
+		align-self: center;
+		justify-self: center;
+	}
+	footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#about #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". ab ab ."
+			". t t ."
+			"f f f f";
+	}
+	#about header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#about #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#about nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#about nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#about nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#about nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#about nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#about nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	
+	#music #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			"p e o m"
+			"f f f f";
+	}
+	#music header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #aboutme {
+		grid-area: ab;
+		align-self: center;
+		justify-self: center;
+	}
+	#music nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#music nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#music nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#music nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#music nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#music nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#music #musicpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #pianoimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #electronicimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#music #marchingensemble {
+		grid-area: m;
+		align-self: center;
+		justify-self: center;
+	}
+	#music footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#piano #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". p p ."
+			". t t ."
+			"s1 s2 s3 s4"
+			"f f f f";
+	}
+	#piano header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#piano nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#piano nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#piano nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#piano nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#piano nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#piano #pianopageimg {
+		grid-area: p;
+		align-self: center;
+		justify-self: center;
+	}
+	#piano #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#piano footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#electronic #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(4, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". t t ."
+			". s b ."
+			"f f f f";
+	}
+	#electronic header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#electronic nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#electronic nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#electronic nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#electronic nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#electronic nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#electronic #songimg {
+		grid-area: s;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic #beatimg {
+		grid-area: b;
+		align-self: center;
+		justify-self: center;
+	}
+	#electronic footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#esongs #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". e e ."
+			". t t ."
+			"s1 s2 s3 s4"
+			"f f f f";
+	}
+	#esongs header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#esongs nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#esongs nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#esongs nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#esongs nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#esongs nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#esongs #esongimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#esongs #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#esongs footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#ebeats #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(6, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". e e ."
+			". t t ."
+			"s1 s2 s3 s4"
+			". s5 s6 ."
+			"f f f f";
+	}
+	#ebeats header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#ebeats nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#ebeats nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#ebeats nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#ebeats nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#ebeats nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#ebeats #ebeatimg {
+		grid-area: e;
+		align-self: center;
+		justify-self: center;
+	}
+	#ebeats #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s5 {
+		grid-area: s5;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats #s6 {
+		grid-area: s6;
+		align-self: start;
+		justify-self: center;
+	}
+	#ebeats footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#orchestral #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(6, minmax(300px, auto));
+		grid-template-rows: repeat(7, minmax(20px, auto));
+		grid-template-areas:
+			". h n n ."
+			". o o o . "
+			". t t t ."
+			". s s1 s2 ."
+			". s s3 s4 ."
+			". f f f .";
+	}
+	#orchestral header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#orchestral nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#orchestral nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#orchestral nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#orchestral nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#orchestral nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#orchestral #orchimg {
+		grid-area: o;
+		align-self: center;
+		justify-self: center;
+	}
+	#orchestral #soundtrackimg {
+		grid-area: s;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s3 {
+		grid-area: s3;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral #s4 {
+		grid-area: s4;
+		align-self: start;
+		justify-self: center;
+	}
+	#orchestral footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#soundtracks #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			". s1 s2 ."
+			"f f f f";
+	}
+	#soundtracks header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#soundtracks nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#soundtracks nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#soundtracks nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#soundtracks nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#soundtracks nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#soundtracks #soundtrackpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#soundtracks #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#soundtracks footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+	
+	#marching #wrapper {
+		display: grid;
+		height: 100%;
+		grid-row-gap: 15px;
+		grid-template-columns: repeat(4, minmax(300px, auto));
+		grid-template-rows: repeat(5, minmax(20px, auto));
+		grid-template-areas:
+			"h n n n"
+			". i i ."
+			". t t ."
+			". s1 s2 ."
+			"f f f f";
+	}
+	#marching header {
+		grid-area: h;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #text {
+		grid-area: t;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	#marching nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+	#marching nav ul li {
+		margin: 0 0 0 20px;
+	}
+	#marching nav a {
+		opacity: 1;
+		position: relative;
+	}
+	#marching nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background-color: #8734F2;
+		position: absolute;
+		top: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 150ms;
+	}
+	#marching nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	#marching #marchingpageimg {
+		grid-area: i;
+		align-self: center;
+		justify-self: center;
+	}
+	#marching #s1 {
+		grid-area: s1;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching #s2 {
+		grid-area: s2;
+		align-self: start;
+		justify-self: center;
+	}
+	#marching footer {
+		grid-area: f;
+		align-self: center;
+		justify-self: center;
+	}
+}
+
+@media print {
+	nav,
+	img,
+	header,
+	footer {
+		display: none;
+	}
+	body {
+		width: 100%;
+	}
+	#wrapper {
+		background-color: white;
+		display: block;
+	}
+	#text {
+		background-color: white;
+	}
+	#text p {
+		font-size: 12pt;
+	}
+	p {
+		font-size: 10.5pt;
+	}
+	h4 {
+		font-size: 18pt;
+		color: black;
+	}
+	a {
+		font-size: 13.5pt;
+		color: black;
+		background-color: white;
+	}
+	
+}
