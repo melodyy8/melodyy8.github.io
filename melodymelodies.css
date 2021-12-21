@@ -415,7 +415,7 @@ footer p {
 		justify-self: center;
 	}
 	nav {
-		
+		grid-area: n;
 		text-align: left;
 		align-self: center;
 		justify-self: center;
@@ -3213,39 +3213,7 @@ footer p {
 		align-self: center;
 		justify-self: center;
 	}
-	#about nav {
-		all: unset;
-		grid-column: 3 / 4;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-	}
-	#about nav ul {
-		display: flex;
-		justify-content: flex-end;
-	}
-	#about nav ul li {
-		margin: 0 0 0 20px;
-	}
-	#about nav a {
-		opacity: 1;
-		position: relative;
-	}
-	#about nav a::before {
-		content: '';
-		display: block;
-		height: 5px;
-		background-color: #8734F2;
-		position: absolute;
-		top: -.75em;
-		left: 0;
-		right: 0;
-		transform: scale(0, 1);
-		transition: transform ease-in-out 150ms;
-	}
-	#about nav a:hover::before {
-		transform: scale(1, 1);
-	}
+	
 	
 	#music #wrapper {
 		display: grid;
