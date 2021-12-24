@@ -1,8 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-        <li><a href="https://melodyy8.github.io/indexmusic.html">home</a></li>
-    </body>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Melody Yi</b> Website</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="https://github.com/melodyy8/numc"><div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">NumC</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      </div></a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="https://github.com/melodyy8/rolldice"><div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">RollDice</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div></a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="https://github.com/melodyy8/classify"><div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Classify</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div></a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Design Portfolio</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="https://drive.google.com/drive/folders/1w9P9nKuuEKcdq6l4orTWtkZhrnQ-cJme?usp=sharing"><div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Music Projects</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div></a>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <p>Hi! My name is Melody and I am a junior at the University of California Berkeley, majoring in Computer Science and double minoring in Data Science and Music. I am also pursuing the Jacobs Institute Certificate in Design Innovation. Some courses I've taken include CS 61A, CS 61B, CS 61C, CS 70, EE 16A, and Des Inv 21, and I am proficient in Python, Java, C, C++, RISC-V/Assembly, and HTML5/CSS. Some applications I'm experienced with include Adobe Dreamweaver, Postman API, IntelliJ IDE, PyCharm, VSCode, Vim, and Adobe Premier Pro. I am currently looking for any kind of Software Engineering internship, from Frontend User Design, to Backend, to Full Stack. Frontend and Full Stack are sligthly preferred as I am looking to expand my design experience, however, I am open to anything and always eager to learn new things!
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="Melody" style="width:100%">
+      <h3>Melody Yi</h3>
+      <p class="w3-opacity">Pronouns: she/her/hers</p>
+      <p>Email: melodyyi321@gmail.com</p>
+      <p>Phone: (510) 332-0886</p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Let's get in touch and talk about Software Engineering and Design opportunities!</p>
+    <form action="contact-form.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Message" required name="Message">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
 </html>
